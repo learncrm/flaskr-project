@@ -24,7 +24,6 @@ def connect_db():
     rv.row_factory = sqlite3.Row
     return rv
 
-        g.sqlite_db.close()
 
 
 
